@@ -7,7 +7,7 @@ app.set("views", "./views")
 app.use(express.static("./views"))
 app.set("view engine", "pug")
 
-app.use(express.urlencoded({extended: false}))// important
+app.use(express.urlencoded({extended: false}))
 
 let y 
 let update = false
@@ -64,7 +64,6 @@ app.get("/editUser/:username", (req, res) =>{
             return
         }
     }
-    
 })
 
 app.get("/delete/:username", (req,res)=>{

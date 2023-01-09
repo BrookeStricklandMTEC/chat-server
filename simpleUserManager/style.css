@@ -5,10 +5,10 @@ table{
 td, th{
     border: 1px solid black;
     text-align: left;
-    padding:8px
+    padding: 8px
 }
 tr:nth-child(even){
-    background-color:rgb(182, 182, 182)
+    background-color:rgb(247, 98, 98)
 }
 .pad{
     display: flex;
@@ -24,5 +24,5 @@ tr:nth-child(even){
 }
 .fa-solid:hover{
     transition:1s;
-    color:gray;
+    color:rgb(253, 216, 216);
 }
